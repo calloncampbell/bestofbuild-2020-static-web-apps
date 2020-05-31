@@ -28,9 +28,9 @@ jobs:
           app_location: "svelte-app" # App source code path 👈 Change this
           api_location: "api" # Api source code path - optional
           # Built app content directory
-          # app_artifact_location: 'dist/angular-app' # 👈 Angular
+          app_artifact_location: 'dist/angular-app' # 👈 Angular
           # app_artifact_location: 'build' # 👈 React
-          app_artifact_location: "public" # 👈 Svelte
+          # app_artifact_location: "dist" # 👈 Svelte
           # app_artifact_location: 'dist' # 👈 Vue
           ###### End of Repository/Build Configurations ######
 
